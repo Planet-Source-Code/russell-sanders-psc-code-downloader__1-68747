@@ -1,0 +1,26 @@
+When you open the program you'll see in the top left hand corner, you can select the type of code to look for in the combobox.
+
+The two text boxes bellow that, are where you enter the numbers of the files from where you want to download from and to you could enter 0 to the number of the last file uploaded to PSC. Using the command "Get The Latest Code Posting" will load the "To" textbox for you.
+
+the command "Select to resume an eairler session" when selected will eather reload the progress of the Download files from-to textboxes above it. Or relist the files you had selected and had paused the downloads.
+
+the command "List the 50 latest postings to PSC" will list the latest 50 postings to  PSC weather or not it is new or updated. I am tring to filter the results into new, old and updated but what i'm doing is lame and doesn't work.  
+
+Following down the next textbox is where you can enter a delay time to wait between files. this keeps the strain off PSCs' servers.
+
+the next two textboxes give you some idea of the number of files saved. I put this here because some file numbers are invalid. Code has been removed or was rejected.
+There is a quirk somewhere causing an invalid count. Haven't traced it yet.
+
+To the right of all this are two file list boxes who's paths are set to two folders created by this app. one for zip files and the other for htm files. Using the Commands under the file list Rename will open the files and rename them to the name that the author used when posting. The htm files will be converted to text files if applicable otherwise thay are renamed but remain htm files.
+
+in the lower left hand corner there is a command with three arrows pointed down. clicking it will open a browser you can use to search a file or author. Enter the search phrase in the textbox and eather push enter or select the "GO" command.
+This is the same search you would use if you were on the site. In fact you are on the site. The results are then displayed. You can then list those results (the first 50) by selecting "List Files on this page" command.
+
+I was thinking of adding a download all results command.
+
+If you select an artical in the results page, after the artical is displayed the "Download All #?(a number of files by author of current artical) by this Author?" will be enabled. Selecting it will loop through each page and each artical on that page and downloads them.
+
+There is a new command "PSC Advanced Search" this command will display a search dialog which is a mock version of PSCs' advanced search page and throws the same addresses for the search.
+
+
+I hope this helps since the code and UI are just under useful in discribing how to use this. Maby with both you can get it working enough to figure out the rest.
